@@ -23,7 +23,7 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.json" },
     { import = "lazyvim.plugins.extras.coding.copilot" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
-    -- import/override with your plugins
+    { import = "lazyvim.plugins.extras.formatting.prettier" }, -- import/override with your plugins
     { import = "plugins" },
   },
   defaults = {
@@ -53,3 +53,4 @@ require("lazy").setup({
     },
   },
 })
+vim.opt.titlestring = "%<%F%=%l/%L - nvim" -- what the title of the window will be set to
