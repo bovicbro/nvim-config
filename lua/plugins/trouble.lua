@@ -1,1 +1,1 @@
-return { "folke/trouble.nvim", enabled = false }
+return { "folke/trouble.nvim" }
