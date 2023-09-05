@@ -5,13 +5,16 @@
 vim.keymap.set("i", "jj", "<Esc>")
 
 local keymap = vim.keymap.set
-
 -- LSP finder - Find the symbol's definition
+keymap("n", "<C-h>", "<cmd>TmuxNavigateLeft<CR>")
+keymap("n", "<c-l>", "<cmd>TmuxNavigateRight<CR>")
+keymap("n", "<C-j>", "<cmd>TmuxNavigateDown<CR>")
+keymap("n", "<C-k>", "<cmd>TmuxNavigateUp<CR>")
 -- If there is no definition, it will instead be hidden
 -- When you use an action in finder like "open vsplit",
 -- you can use <C-t> to jump back
 keymap("n", "<leader>hh", "<cmd>Lspsaga lsp_finder<CR>")
-
+keymap("n", "K", "<cmd>Lspsaga hover_doc<CR>")
 -- Code action
 keymap({ "n", "v" }, "<leader>ca", "<cmd>Lspsaga code_action<CR>")
 
@@ -63,7 +66,7 @@ keymap("n", "]E", function()
 end)
 
 -- Toggle outline
-keymap("n", "<leader>o", "<cmd>Lspsaga outline<CR>")
+keymap("n", "<leader>ho", "<cmd>Lspsaga outline<CR>")
 
 -- Hover Doc
 -- If there is no hover doc,
