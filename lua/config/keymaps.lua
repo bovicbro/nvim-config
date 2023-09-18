@@ -8,7 +8,7 @@ local keymap = vim.keymap.set
 -- Source config
 keymap("n", "<leader>cs", "<cmd>luafile $MYVIMRC<CR>")
 -- LSP finder - Find the symbol's definition
-keymap("n", "<C-h>", "<cmd>TmuxNavigateLeft< CR>")
+keymap("n", "<C-h>", "<cmd>TmuxNavigateLeft<CR>")
 keymap("n", "<c-l>", "<cmd>TmuxNavigateRight<CR>")
 keymap("n", "<C-j>", "<cmd>TmuxNavigateDown<CR>")
 keymap("n", "<C-k>", "<cmd>TmuxNavigateUp<CR>")
