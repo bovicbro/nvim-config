@@ -4,7 +4,7 @@ return {
   build = ":TSUpdate",
   event = { "BufReadPost", "BufNewFile" },
   dependencies = {
-    "JoosepAlviste/nvim-ts-context-commentstring",
+    -- "JoosepAlviste/nvim-ts-context-commentstring",
     {
       "nvim-treesitter/nvim-treesitter-textobjects",
       init = function()
@@ -34,7 +34,7 @@ return {
   opts = {
     highlight = { enable = true },
     indent = { enable = true },
-    context_commentstring = { enable = true, enable_autocmd = true },
+    -- context_commentstring = { enable = true, enable_autocmd = true },
     ensure_installed = {
       "bash",
       "c",
@@ -47,6 +47,9 @@ return {
       "markdown",
       "markdown_inline",
       "python",
+      "ninja",
+      "rst",
+      "toml",
       "svelte",
       "query",
       "regex",
