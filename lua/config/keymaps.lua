@@ -3,6 +3,7 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("i", "jj", "<Esc>")
+vim.keymap.set("c", "jj", "<Esc>")
 
 local keymap = vim.keymap.set
 -- Source config

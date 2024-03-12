@@ -4,3 +4,4 @@
 --
 vim.opt.relativenumber = false
 vim.opt.titlestring = "%<%F%=%l/%L - nvim" -- what the title of the window will be set to
+vim.filetype.add({ extension = { templ = "templ" } })
