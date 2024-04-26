@@ -14,6 +14,7 @@ keymap("n", "<c-l>", "<cmd>TmuxNavigateRight<CR>")
 keymap("n", "<C-j>", "<cmd>TmuxNavigateDown<CR>")
 keymap("n", "<C-k>", "<cmd>TmuxNavigateUp<CR>")
 keymap("n", "<leader>hl", "<cmd>:lua vim.diagnostic.open_float()<CR>")
+keymap("n", "<C-n>", "<cmd>:b#<CR>")
 -- If there is no definition, it will instead be hidden
 -- When you use an action in finder like "open vsplit",
 -- you can use <C-t> to jump back
