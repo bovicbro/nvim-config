@@ -1,9 +1,6 @@
 -- Keymaps are automatically loaded on the VeryLazy event
--- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
+-- Default keymaps that are always get: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
-
-vim.keymap.set("i", "jj", "<Esc>")
-vim.keymap.set("c", "jj", "<Esc>")
 
 local keymap = vim.keymap.set
 -- Source config
@@ -15,6 +12,8 @@ keymap("n", "<C-j>", "<cmd>TmuxNavigateDown<CR>")
 keymap("n", "<C-k>", "<cmd>TmuxNavigateUp<CR>")
 keymap("n", "<leader>hl", "<cmd>:lua vim.diagnostic.open_float()<CR>")
 keymap("n", "<C-n>", "<cmd>:b#<CR>")
+keymap("i", "jj", "<Esc>")
+keymap("c", "jj", "<C-c>")
 -- If there is no definition, it will instead be hidden
 -- When you use an action in finder like "open vsplit",
 -- you can use <C-t> to jump back

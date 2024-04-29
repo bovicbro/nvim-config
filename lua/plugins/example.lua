@@ -85,7 +85,7 @@ return {
     },
   },
 
-  -- -- add pyright to lspconfig
+  -- -- add pyrasdfight to lspconfig
   -- {
   --   "neovim/nvim-lspconfig",
   --   ---@class PluginLspOpts
