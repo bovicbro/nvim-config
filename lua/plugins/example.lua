@@ -142,6 +142,7 @@ return {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
+        "kotlin",
         "ocaml",
         "bash",
         "help",
