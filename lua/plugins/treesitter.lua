@@ -36,6 +36,7 @@ return {
     indent = { enable = true },
     -- context_commentstring = { enable = true, enable_autocmd = true },
     ensure_installed = {
+      "scheme",
       "templ",
       "bash",
       "c",
