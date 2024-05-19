@@ -1,7 +1,7 @@
 return {
   "uga-rosa/ccc.nvim",
   keys = {
-    { "<C-p>", "<cmd>CccPick<CR>", desc = "Color picker", mode = { "n", "i" } },
+    { "<C-c>", "<cmd>CccPick<CR>", desc = "Color picker", mode = { "n", "i" } },
   },
   opts = {
     highlighter = {
