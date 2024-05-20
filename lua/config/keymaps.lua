@@ -11,7 +11,7 @@ keymap("n", "<c-l>", "<cmd>TmuxNavigateRight<CR>")
 keymap("n", "<C-j>", "<cmd>TmuxNavigateDown<CR>")
 keymap("n", "<C-k>", "<cmd>TmuxNavigateUp<CR>")
 keymap("n", "<leader>hl", "<cmd>:lua vim.diagnostic.open_float()<CR>")
-keymap("n", "<C-n>", "<cmd>:b#<CR>")
+-- keymap("n", "<C-n>", "<cmd>:b#<CR>")
 keymap("i", "jj", "<Esc>")
 keymap("c", "jj", "<C-c>")
 -- If there is no definition, it will instead be hidden
