@@ -14,6 +14,10 @@ keymap("n", "<leader>hl", "<cmd>:lua vim.diagnostic.open_float()<CR>")
 -- keymap("n", "<C-n>", "<cmd>:b#<CR>")
 keymap("i", "jj", "<Esc>")
 keymap("c", "jj", "<C-c>")
+
+keymap("n", "<leader>d", "<cmd>normal! strftime('%Y-%m-%d')<cr>")
+
+-- If there is no definition, it will instead be hidden
 -- If there is no definition, it will instead be hidden
 -- When you use an action in finder like "open vsplit",
 -- you can use <C-t> to jump back
