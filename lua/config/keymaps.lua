@@ -17,6 +17,9 @@ keymap("c", "jj", "<C-c>")
 
 keymap("n", "<leader>d", "<cmd>normal! strftime('%Y-%m-%d')<cr>")
 
+keymap("c", "<shift>h", "<cmd>bprevious")
+keymap("c", "<shift>l", "<cmd>bnext")
+
 -- If there is no definition, it will instead be hidden
 -- If there is no definition, it will instead be hidden
 -- When you use an action in finder like "open vsplit",
