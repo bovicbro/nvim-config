@@ -4,6 +4,7 @@ return {
     servers = {
       pyright = {},
       ruff_lsp = {},
+      kotlin_language_server = {},
     },
     setup = {
       ruff_lsp = function()
