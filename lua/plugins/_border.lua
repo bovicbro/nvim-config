@@ -15,10 +15,10 @@ return {
     end,
   },
   -- lazyvim.plugins.editor
-  {
-    "which-key.nvim",
-    opts = { window = { border = BORDER_STYLE } },
-  },
+  -- {
+  --   "which-key.nvim",
+  --   opts = { window = { border = BORDER_STYLE } },
+  -- },
   {
     "gitsigns.nvim",
     opts = { preview_config = { border = BORDER_STYLE } },
