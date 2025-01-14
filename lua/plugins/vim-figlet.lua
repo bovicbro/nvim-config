@@ -1,1 +1,0 @@
-return { "fadein/vim-figlet" }
