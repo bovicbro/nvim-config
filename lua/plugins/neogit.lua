@@ -15,6 +15,6 @@ return {
   },
   config = true,
   opts = {
-    kind = "replace",
+    -- kind = "replace",
   },
 }

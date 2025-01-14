@@ -61,6 +61,7 @@ return {
       "vimdoc",
       "yaml",
       "haskell",
+      "zig",
       "go",
     },
     incremental_selection = {
