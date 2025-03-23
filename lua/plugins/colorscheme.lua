@@ -6,6 +6,8 @@ return {
   { "folke/tokyonight.nvim" },
   { "navarasu/onedark.nvim" },
   { "folke/tokyonight.nvim" },
+  { "rebelot/kanagawa.nvim" },
+  { "rose-pine/neovim" },
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
